@@ -251,6 +251,12 @@ button {
   right: 0;
 }
 
+/*=========== Change background header==========*/
+.scroll-header{
+  background-color: var(--body-color);
+  box-shadow: 0 1px 4px hsla(0, 4%, 15%, .1);
+}
+
 /*=========== Home ============*/
 .home__container{
   position: relative;
@@ -308,4 +314,34 @@ button {
   font-weight: var(--font-medium);
   color: var(--first-color);
   margin-bottom: var(--mb-3);
+}
+
+.button{
+  display: inline-block;
+  background-color: var(--button-color);
+  color: #fff;
+  padding: 1.25rem 2rem;
+  font-weight:var(--font-medium) ;
+  transition: .3s;
+}
+.button:hover{
+  background-color: var(--button-color-alt);
+}
+
+.button--gray{
+  background-color: hsl(0, 0%, 75%);
+  color: var(--title-color);
+}
+.button--gray:hover{
+  background-color: hsl(0, 0%, 63%);
+}
+.home__button{
+  box-shadow: 0 12px 24px hsla(0, 0%, 10%, .2);
+}
+.button--small{
+  padding: 1rem 1.5rem;
+}
+.home__btns{
+  display: flex;
+  align-items: center;
 }
