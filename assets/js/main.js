@@ -31,4 +31,4 @@ function scrollHeader(){
     if(this.scrollY >= 50) header.classList.add('scroll-header')
 }
 
-window.addEventListener('scroll', scrollHeader)
+window.addEventListener('scroll', scrollHeader);
